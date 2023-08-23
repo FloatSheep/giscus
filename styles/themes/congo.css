@@ -1,7 +1,7 @@
 /*! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com*/
 *,:after,:before {
-    border: 0 solid #e5e7eb;
-    box-sizing: border-box
+    border: rgb(248 250 252);
+    box-sizing: border-box;
 }
 
 :after,:before {
@@ -165,7 +165,7 @@ input::placeholder,textarea::placeholder {
 }
 
 :disabled {
-    cursor: default
+    cursor: default;
 }
 
 audio,canvas,embed,iframe,img,object,svg,video {
@@ -784,7 +784,7 @@ details summary {
 .form-control {
     background-color: var(--color-canvas-default,var(--color-input-bg));
     border-color: var(--color-border-default,var(--color-input-border));
-    vertical-align: middle
+    vertical-align: middle;
 }
 
 .form-control:focus {
@@ -908,7 +908,7 @@ details summary {
     background-color: #3b82f6;
     border-color: var(--color-btn-primary-border);
     box-shadow: var(--color-btn-primary-shadow),var(--color-btn-primary-inset-shadow);
-    color: var(--color-btn-primary-text)
+    color: #ffffff;
 }
 
 .btn-primary:hover {
@@ -1436,7 +1436,8 @@ img.emoji {
 }
 
 .gsc-comment-box-textarea:disabled {
-    cursor: not-allowed
+    cursor: not-allowed;
+    border: rgb(248 250 252);
 }
 
 .gsc-comment-box-textarea {
